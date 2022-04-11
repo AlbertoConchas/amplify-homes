@@ -16,7 +16,7 @@ export default function CardB(props) {
   const cardBOnClick = useNavigateAction({ type: "url", url: "" });
   const imageOnClick = useNavigateAction({
     type: "url",
-    url: "https://master.d38ftu1398o6so.amplifyapp.com/ar.html",
+    url: `${"https://master.d38ftu1398o6so.amplifyapp.com/"}${home?.id}`,
   });
   return (
     <Flex
