@@ -16,7 +16,7 @@ import {
   Text,
 } from "@aws-amplify/ui-react";
 export default function ProductDetail(props) {
-  const { productID, home, overrides, ...rest } = props;
+  const { home, overrides, ...rest } = props;
   return (
     <Flex
       gap="24px"
@@ -25,6 +25,7 @@ export default function ProductDetail(props) {
       alignItems="flex-start"
       position="relative"
       padding="0px 0px 0px 0px"
+      id={home?.id}
       {...rest}
       {...getOverrideProps(overrides, "ProductDetail")}
     >
