@@ -30,10 +30,10 @@ export default function NewProducts(props) {
   return (
     <Collection
       type="grid"
-      isSearchable={true}
+      isSearchable="true"
       isPaginated={true}
       searchPlaceholder="Search..."
-      templateColumns="1fr 1fr 1fr"
+      templateColumns="1fr 1fr"
       autoFlow="row"
       alignItems="stretch"
       justifyContent="stretch"
